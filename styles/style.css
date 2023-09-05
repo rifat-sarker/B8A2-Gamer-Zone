@@ -20,7 +20,6 @@ body {
 header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    /* border: 1px solid red; */
 }
 
 .nav-container {
@@ -34,25 +33,42 @@ header {
 }
 
 .logo-container {
-    width: 70%;
+    width: 50%;
     display: flex;
 }
 
-.logo-color {
-    color: #FF42A5;
-}
+.logo-styles {
+    width: 50px;
+    margin-right: 20px;
 
+}
+.logo-color{
+    color: #FF42A5 ;
+}
 .menu-container {
     display: flex;
-    /* border: 1px solid yellow; */
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 50%;
+}
+
+.item-color {
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.unique-color {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 30px;
 }
 
 .menu-container a {
     text-decoration: none;
     text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .logo-image {
@@ -65,7 +81,7 @@ header {
     gap: 68px;
     justify-content: center;
     align-items: center;
-
+    background: #FFF;
 }
 
 .banner-heading {
@@ -78,6 +94,7 @@ header {
 .banner-header {
     color: #0B0223;
     font-weight: 600;
+    font-size: 2.3rem;
 }
 
 .special-heading {
@@ -86,10 +103,12 @@ header {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.buttons{
+
+.buttons {
     display: flex;
     gap: 10px;
 }
+
 .sign-btn {
     border-radius: 48px;
     background: #FF42A5;
@@ -99,7 +118,8 @@ header {
     padding: 15px 40px;
     border: 0;
 }
-.go-btn{
+
+.go-btn {
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
@@ -108,7 +128,8 @@ header {
     padding: 15px 40px;
     border: 0;
 }
-.color-2d {
+
+.color-2{
     color: #534C64;
 }
 
@@ -117,4 +138,44 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
 
+}
+/* play games styles */
+.play-card-container{
+    margin-bottom: 100px;
+}
+.play-card-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.play-description{
+    color:#534C64;
+}
+.funny-color{
+    color: #F948B2;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card{
+    /* height: 400px;
+    width: 342px; */
+    height: 330px;
+    width: 263px;
+}
+.card-hover:hover{
+    
+
+}
+.card-container img{
+    width : 100%;
+    border-radius: 16px;
+    
+}
+.card-img{
+    
 }

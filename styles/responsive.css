@@ -22,8 +22,26 @@
         align-items: center;
         justify-content: center;
     }
-
-
+    .games-container {
+        grid-template-columns: repeat(3, 3fr);
+        gap: 5px;
+    }
+    .games{
+        gap: 0px;
+        padding: 0px 0px;
+    }
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 30px;     
+    }
+    .paragraph{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .footer-list, .footer-icon, .paragraph{
+        gap: 20px;
+    }
 }
 
 

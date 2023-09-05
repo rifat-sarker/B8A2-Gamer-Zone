@@ -3,7 +3,9 @@
 @media screen and (max-width: 576px) {
     nav,
     .nav-container,
-    .menu-container {
+    .menu-container,
+    .card-container,
+    .play-container {
         flex-direction: column;
         width: auto;
     }

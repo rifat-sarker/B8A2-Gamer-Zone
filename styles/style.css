@@ -9,7 +9,7 @@
 
 * {
     box-sizing: border-box;
-}
+}   
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -42,9 +42,11 @@ header {
     margin-right: 20px;
 
 }
-.logo-color{
-    color: #FF42A5 ;
+
+.logo-color {
+    color: #FF42A5;
 }
+
 .menu-container {
     display: flex;
     justify-content: space-between;
@@ -129,7 +131,7 @@ header {
     border: 0;
 }
 
-.color-2{
+.color-2 {
     color: #534C64;
 }
 
@@ -139,43 +141,78 @@ header {
     font-weight: 500;
 
 }
+
 /* play games styles */
-.play-card-container{
+.play-card-container {
     margin-bottom: 100px;
 }
-.play-card-heading{
+
+.play-card-heading {
     text-align: center;
     margin-bottom: 40px;
 }
-.play-description{
-    color:#534C64;
+
+.play-description {
+    color: #534C64;
 }
-.funny-color{
+
+.funny-color {
     color: #F948B2;
     font-weight: 700;
     font-size: 3rem;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-.card{
-    /* height: 400px;
-    width: 342px; */
-    height: 330px;
+
+.card {
+    padding-bottom: 5px;
     width: 263px;
 }
-.card-hover:hover{
-    
+
+.card-hover:hover {}
+
+.card-container img {
+    width: 100%;
+    border-radius: 16px;
 
 }
-.card-container img{
-    width : 100%;
-    border-radius: 16px;
+
+/* play section */
+.play-container {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+
+.play-title {
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
     
 }
-.card-img{
-    
+
+.feature-image img{
+    border-radius: 8px;
+    height: 490px;
+    width: 480px;
+    margin-right: 0px;
+}
+
+.man-with-horse {
+    margin-left: 150px;
+}
+
+.small-img {
+    position: relative;
+    bottom: 270px;
+}
+
+.small-img .smaller {
+    width: 290px;
+    height: 350px;
 }
